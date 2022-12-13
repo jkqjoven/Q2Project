@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <title>Restaurant Menu</title>
+  <style type="text/css">
+    th, td{
+      padding: 15px;
+    }
+    .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 30%;
+    }
+    img{
+      max-height: 220px;
+      min-height: 220px;
+      max-width: 300px;
+      min-width: 300px;
+    }
+    table {
+      border-style: solid;
+      border-width: 7px;
+      border-color: white;
+      padding-top: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+    }
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+      font-family: 'Roboto Condensed', bold;
+      text-shadow: 2px 2px 5px black;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      font-size: 120px;
+    }
+    .underline {
+      text-decoration: underline;
+    }
+    form {
+      padding-left: 20px;
+    }
+  </style>
+
+</head>
+<body style="background-color: #AB2626;">
+
+<h1 style="color: white;">MARUGAME UDON</h1>
+
+<center>
+  <h2 style="background-color: #FFFFFF;">Rice Bowls</h1>
+</center>
+
+<center>
+  <table border="5" cellspacing="50">
+    <tr>
+      <th style="background-color:#FFFFFF" class="underline">Curry Rice | 160 Php</th>
+      <th style="background-color:#FFFFFF" class="underline">Katsu Curry Rice | 250 Php</th>
+      <th style="background-color:#FFFFFF" class="underline">Teriyaki Beef Yakiniku | 210 Php</th>
+      <th style="background-color:#FFFFFF" class="underline">Teriyaki Chicken Yakiniku | 210 Php</th>
+      <th style="background-color:#FFFFFF" class="underline">Beef Gyudon | 170 Php</th>
+    </tr>
+    <tr style="height: 150px;">
+      <td><img src="curry rice.jpeg" width="50%" height="50%" class="center"></td>
+      <td><img src="katsu curry rice.jpeg" width="50%" height="50%" class="center"></td>
+      <td><img src="teriyaki beef yakiniku.webp" width="50%" height="50%" class="center"></td>
+      <td><img src="teriyaki chicken yakiniku.jpeg" width="50%" height="50%" class="center"></td>
+      <td><img src="gyudon.webp" width="50%" height="50%" class="center"></td>
+    </tr>
+  </table>
+</center>
+
+<br>
+
+<center>
+  <h2 style="background-color: #FFFFFF ;">Udon</h1>
+</center>
+
+<center>
+  <table border="2" cellspacing="50">
+    <tr>
+      <th style="background-color:#FFFFFF" class="underline">Beef Yakiudon | 190 Php</th>
+      <th style="background-color:#FFFFFF" class="underline">Beef Udon | 185 Php</th>
+      <th style="background-color:#FFFFFF" class="underline">Kake Udon | 145 Php</th>
+      <th style="background-color:#FFFFFF" class="underline">Tonkotsu Udon | 210 Php</th>
+      <th style="background-color:#FFFFFF" class="underline">Kimchi Yakiudon | 190 Php</th>
+    </tr>
+    <tr style="height: 150px;">
+      <td><img src="beef yakiudon.jpeg" width="50%" height="50%" class="center"></td>
+      <td><img src="beef udon.jpeg" width="50%" height="50%" class="center"></td>
+      <td><img src="kake udon.jpeg" width="50%" height="50%" class="center"></td>
+      <td><img src="tonkotsu udon.jpeg" width="50%" height="50%" class="center"></td>
+      <td><img src="kimchi yakiudon.jpeg" width="50%" height="50%" class="center"></td>
+    </tr>
+  </table>
+  <a href="https://docs.google.com/document/d/1IXgOOvCKc_OR-uORCYgZxQIx9TDTm_8zyF1m6IZzGuI/edit?usp=sharing">REFERENCES/SOURCES</a>
+</center>
+<br>
+<form>
+    <h2>RICE BOWLS</h2>
+    <input type="checkbox" id="Option 1" name="Option 1" value="Rice Bowls">
+    <label for="Option 1">Curry Rice</label><br>
+    <input type="checkbox" id="Option 2" name="Option 2" value="Rice Bowls">
+    <label for="Option 2">Katsu Curry Rice</label><br>
+    <input type="checkbox" id="Option 3" name="Option 3" value="Rice Bowls">
+    <label for="Option 3">Teriyaki Beef Yakiniku</label><br>
+    <input type="checkbox" id="Option 4" name="Option 4" value="Rice Bowls">
+    <label for="Option 4">Teriyaki Chicken Yakiniku</label><br>
+    <input type="checkbox" id="Option 5" name="Option 5" value="Rice Bowls">
+    <label for="Option 5">Beef Gyudon</label><br>
+
+    <h2>UDON</h2>
+    <input type="checkbox" id="Option 1" name="Option 1" value="Udon">
+    <label for="Option 1">Beef Yakiudon</label><br>
+    <input type="checkbox" id="Option 2" name="Option 2" value="Udon">
+    <label for="Option 2">Beef Udon</label><br>
+    <input type="checkbox" id="Option 3" name="Option 3" value="Udon">
+    <label for="Option 3">Kake Udon</label><br>
+    <input type="checkbox" id="Option 4" name="Option 4" value="Udon">
+    <label for="Option 4">Tonkotsu Udon</label><br>
+    <input type="checkbox" id="Option 5" name="Option 5" value="Udon">
+    <label for="Option 5">Kimchi Yakiudon</label><br>
+  </form>
+</body>
+</html>
